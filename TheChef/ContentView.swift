@@ -10,12 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        GeometryReader{ geometry in
+            Text("Hello World").font(.system(size: 40, weight: .bold, design: .default)).foregroundColor(Color.orangeCustom)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ForEach(["iPhone SE", "iPhone 11"], id: \.self){ deviceName in
+            ContentView().previewDevice(PreviewDevice(rawValue: deviceName))
+        }
     }
 }
