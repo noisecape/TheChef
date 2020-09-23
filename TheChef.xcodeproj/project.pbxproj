@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F08EFC5251B35FB00AF119B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08EFC4251B35FB00AF119B /* HomeView.swift */; };
+		8F08EFC7251B4A7A00AF119B /* PantryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08EFC6251B4A7A00AF119B /* PantryHome.swift */; };
 		8F63E3162512B85F00956937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F63E3152512B85F00956937 /* AppDelegate.swift */; };
 		8F63E3182512B85F00956937 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F63E3172512B85F00956937 /* SceneDelegate.swift */; };
 		8F63E31A2512B85F00956937 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F63E3192512B85F00956937 /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F08EFC4251B35FB00AF119B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8F08EFC6251B4A7A00AF119B /* PantryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryHome.swift; sourceTree = "<group>"; };
 		8F63E3122512B85F00956937 /* TheChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F63E3152512B85F00956937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F63E3172512B85F00956937 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,14 +62,16 @@
 		8F63E3142512B85F00956937 /* TheChef */ = {
 			isa = PBXGroup;
 			children = (
+				8F63E3292512BCFA00956937 /* Utils.swift */,
 				8F63E3152512B85F00956937 /* AppDelegate.swift */,
 				8F63E3172512B85F00956937 /* SceneDelegate.swift */,
 				8F63E3192512B85F00956937 /* ContentView.swift */,
+				8F08EFC4251B35FB00AF119B /* HomeView.swift */,
+				8F08EFC6251B4A7A00AF119B /* PantryHome.swift */,
 				8F63E31B2512B86200956937 /* Assets.xcassets */,
 				8F63E3202512B86200956937 /* LaunchScreen.storyboard */,
 				8F63E3232512B86300956937 /* Info.plist */,
 				8F63E31D2512B86200956937 /* Preview Content */,
-				8F63E3292512BCFA00956937 /* Utils.swift */,
 			);
 			path = TheChef;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 			files = (
 				8F63E3162512B85F00956937 /* AppDelegate.swift in Sources */,
 				8F63E3182512B85F00956937 /* SceneDelegate.swift in Sources */,
+				8F08EFC7251B4A7A00AF119B /* PantryHome.swift in Sources */,
 				8F63E31A2512B85F00956937 /* ContentView.swift in Sources */,
+				8F08EFC5251B35FB00AF119B /* HomeView.swift in Sources */,
 				8F63E32A2512BCFA00956937 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
